@@ -2,5 +2,32 @@
 client/node_modules/
 server/node_modules/
 
-#environment files
+# environment files
 server/.env 
+client/.env
+
+# build/dist folder
+client/dist/
+server/dist/
+client/build/
+server/build/
+
+# logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Mac system files
+.DS_Store
+
+# OS-specific
+Thumbs.db
+
+# IDEs/Editors
+.vscode/
+.idea/
+
+# Optional lockfiles
+yarn.lock
+pnpm-lock.yaml
